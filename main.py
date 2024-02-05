@@ -31,6 +31,8 @@ def main():
         time_1130.playsound()
         food2.playsound()
         time_notification1.playsound()
+        time_1435.playsound()
+        pickup_ko.playsound()
         time_1200.playsound()
         time_1800.playsound()
         food3.playsound()
