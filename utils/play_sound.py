@@ -44,7 +44,8 @@ class PlaySound:
         try:
             sound = AudioSegment.from_wav(self.playfile)
             play(sound)
+            print(f"{self.playfile} has been played.")
         except: 
             print(f"\nError: {self.playfile} was not found.\n")
+
         self.waiting = False
-        print(f"{self.playfile} has been played.")
