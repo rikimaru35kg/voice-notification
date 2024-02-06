@@ -44,3 +44,4 @@ class PlaySound:
         sound = AudioSegment.from_wav(self.playfile)
         play(sound)
         self.waiting = False
+        print(f"{self.playfile} has been played.")
