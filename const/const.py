@@ -24,12 +24,12 @@ WAV_CARDBOARD = r'voice/017_ずんだもん（ノーマル）_明日は段ボー
 WAV_INFLAMMABLE = r'voice/018_ずんだもん（ノーマル）_明日は燃えないごみ….wav'
 #--------------------------------------------------------
 # small voice
-WAV_0630_SMALL = r'small_001_ずんだもん（ノーマル）_6時30分なのだ.wav'
-WAV_FOOD_SMALL = r'small_002_ずんだもん（ノーマル）_ズーのごはんのふや….wav'
-WAV_0655_SMALL = r'small_003_ずんだもん（ノーマル）_6時55分なのだ.wav'
-WAV_WAKEUP_SMALL = r'small_004_ずんだもん（ノーマル）_そろそろ起きるのだ.wav'
-WAV_2200_SMALL = r'small_005_ずんだもん（ノーマル）_10時なのだ.wav'
-WAV_SLEEP_SMALL = r'small_006_ずんだもん（ノーマル）_そろそろ寝るのだ.wav'
+WAV_0630_SMALL = r'voice/small_001_ずんだもん（ノーマル）_6時30分なのだ.wav'
+WAV_FOOD_SMALL = r'voice/small_002_ずんだもん（ノーマル）_ズーのごはんのふや….wav'
+WAV_0655_SMALL = r'voice/small_003_ずんだもん（ノーマル）_6時55分なのだ.wav'
+WAV_WAKEUP_SMALL = r'voice/small_004_ずんだもん（ノーマル）_そろそろ起きるのだ.wav'
+WAV_2200_SMALL = r'voice/small_005_ずんだもん（ノーマル）_10時なのだ.wav'
+WAV_SLEEP_SMALL = r'voice/small_006_ずんだもん（ノーマル）_そろそろ寝るのだ.wav'
 #--------------------------------------------------------
 # archive 
 # WAV_0655 = r'voice/001_ずんだもん（ノーマル）_６時５５分なのだ。….wav'
