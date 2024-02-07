@@ -1,3 +1,5 @@
+import time
+
 import utils
 import const
 
@@ -24,7 +26,7 @@ def main():
     flammable = utils.PlaySound("21:00:01", const.WAV_FLAMMABLE, day=[2, 6])
     inflammable = utils.PlaySound("21:00:01", const.WAV_INFLAMMABLE, day=[3])
     time_2200 = utils.PlaySound("22:00:00", const.WAV_2200_SMALL)
-    sleep = utils.PlaySound("22:00:00", const.WAV_SLEEP_SMALL)
+    sleep = utils.PlaySound("22:00:01", const.WAV_SLEEP_SMALL)
 
     while (True):
         time_0630.playsound()
@@ -49,6 +51,8 @@ def main():
         time_2100.playsound()
         time_2200.playsound()
         sleep.playsound()
+
+        time.sleep(0.5)
 
 
 if __name__ == '__main__':
