@@ -41,13 +41,13 @@ class PlaySound:
                 self.waiting = True
             return
 
+        print("------------------------------------------------")
+        print(dt.now().strftime("%Y/%m/%d[%a] %H:%M:%S"), flush=True)
         try:
             sound = AudioSegment.from_wav(self.playfile)
             play(sound)
-            print("------------------------------------------------")
             print(f"{self.playfile} has been played.", flush=True)
         except FileNotFoundError as e: 
-            print("------------------------------------------------")
             print(e, flush=True)
 
         self.waiting = False
