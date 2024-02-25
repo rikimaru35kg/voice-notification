@@ -13,17 +13,17 @@ def main():
     time_0720 = utils.PlaySound("07:20:00", const.WAV_0720)
     time_ibokorori1 = utils.PlaySound("07:20:01", const.WAV_IBOKORORI)
     time_1130 = utils.PlaySound("11:30:00", const.WAV_1130)
-    food2 = utils.PlaySound("11:30:01", const.WAV_FOOD)
+    time_ibokorori15 = utils.PlaySound("11:30:01", const.WAV_IBOKORORI, day=[5,6])
     # afternoon
     time_1200 = utils.PlaySound("12:00:00", const.WAV_1200)
-    time_notification1 = utils.PlaySound("12:00:01", const.WAV_TIMENOTIFICATION)
+    food2 = utils.PlaySound("12:00:01", const.WAV_FOOD)
     time_1435 = utils.PlaySound("14:35:00", const.WAV_1435, day=[2])
     pickup_ko = utils.PlaySound("14:35:01", const.WAV_PICKUPKO, day=[2])
     # evening
     time_1700= utils.PlaySound("17:00:00", const.WAV_1700)
     time_ibokorori2 = utils.PlaySound("17:00:01", const.WAV_IBOKORORI)
-    time_1800 = utils.PlaySound("18:00:00", const.WAV_1800)
-    food3 = utils.PlaySound("18:00:01", const.WAV_FOOD)
+    time_1900 = utils.PlaySound("19:00:00", const.WAV_1900)
+    food3 = utils.PlaySound("19:00:01", const.WAV_FOOD)
     tutoring_school = utils.PlaySound("18:15:00", const.WAV_TUTORING, day=[1,4])
     # night
     time_2000 = utils.PlaySound("20:00:00", const.WAV_2000)
@@ -47,16 +47,16 @@ def main():
         time_0720.playsound()
         time_ibokorori1.playsound()
         time_1130.playsound()
-        food2.playsound()
+        time_ibokorori15.playsound()
         # afternoon
         time_1200.playsound()
-        time_notification1.playsound()
+        food2.playsound()
         time_1435.playsound()
         pickup_ko.playsound()
         # evening
         time_1700.playsound()
         time_ibokorori2.playsound()
-        time_1800.playsound()
+        time_1900.playsound()
         food3.playsound()
         tutoring_school.playsound()
         # night
