@@ -12,7 +12,7 @@ def main():
     time_wakeup = utils.PlaySound("06:55:00", const.WAV_WAKEUP_SMALL)
     time_0720 = utils.PlaySound("07:20:00", const.WAV_0720)
     time_ibokorori1 = utils.PlaySound("07:20:01", const.WAV_IBOKORORI)
-    time_1130 = utils.PlaySound("11:30:00", const.WAV_1130)
+    time_1130 = utils.PlaySound("11:30:00", const.WAV_1130, day=[5,6])
     time_ibokorori15 = utils.PlaySound("11:30:01", const.WAV_IBOKORORI, day=[5,6])
     # afternoon
     time_1200 = utils.PlaySound("12:00:00", const.WAV_1200)
