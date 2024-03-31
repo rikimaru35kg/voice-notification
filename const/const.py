@@ -9,7 +9,7 @@ TIME_BUFFER = 60  # [sec]
 #======================================================
 WAV_1900 = r'voice/001_ずんだもん（ノーマル）_7時なのだ.wav'
 WAV_IBOKORORI = r'voice/001_ずんだもん（ノーマル）_イボコロリを忘れず….wav'
-WAV_FOODREMAINDER = r'001_ずんだもん（ノーマル）_ズーにご飯をあげる….wav'
+WAV_FOODREMAINDER = r'voice/001_ずんだもん（ノーマル）_ズーにご飯をあげる….wav'
 WAV_PICKUPKO = r'voice/002_ずんだもん（ノーマル）_お迎えに行くのに、….wav'
 WAV_FOOD = r'voice/002_ずんだもん（ノーマル）_ズーのごはんのふや….wav'
 WAV_TUTORING = r'voice/003_ずんだもん（ノーマル）_そろそろ塾なのだ。….wav'
