@@ -12,16 +12,14 @@ def main():
     time_wakeup = utils.PlaySound("06:55:00", const.WAV_WAKEUP_SMALL)
     foodremainder1 = utils.PlaySound("07:15:00", const.WAV_FOODREMAINDER)
     # afternoon
-    # time_1230 = utils.PlaySound("12:30:00", const.WAV_1230)
-    time_1230 = utils.PlaySound("11:29:00", const.WAV_1230)
+    time_1230 = utils.PlaySound("12:30:00", const.WAV_1230)
     food2 = utils.PlaySound("12:30:01", const.WAV_FOOD)
     foodremainder2 = utils.PlaySound("13:00:00", const.WAV_FOODREMAINDER)
     time_1435 = utils.PlaySound("14:35:00", const.WAV_1435, day=[2])
     pickup_ko = utils.PlaySound("14:35:01", const.WAV_PICKUPKO, day=[2])
     # evening
     tutoring_school = utils.PlaySound("18:15:00", const.WAV_TUTORING, day=[1,4])
-    # time_1930 = utils.PlaySound("19:30:00", const.WAV_0730)
-    time_1930 = utils.PlaySound("11:29:02", const.WAV_0730)
+    time_1930 = utils.PlaySound("19:30:00", const.WAV_0730)
     food3 = utils.PlaySound("19:30:01", const.WAV_FOOD)
     # night
     time_2000 = utils.PlaySound("20:00:00", const.WAV_2000)
