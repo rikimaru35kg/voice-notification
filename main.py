@@ -6,21 +6,15 @@ import const
 
 def main():
     # morning
-    time_0630 = utils.PlaySound("06:30:00", const.WAV_0630_SMALL)
-    food1 = utils.PlaySound("06:30:01", const.WAV_FOOD_SMALL)
     time_0655 = utils.PlaySound("06:55:00", const.WAV_0655_SMALL)
     time_wakeup = utils.PlaySound("06:55:00", const.WAV_WAKEUP_SMALL)
     foodremainder1 = utils.PlaySound("07:15:00", const.WAV_FOODREMAINDER)
     # afternoon
-    time_1230 = utils.PlaySound("12:30:00", const.WAV_1230)
-    food2 = utils.PlaySound("12:30:01", const.WAV_FOOD)
     foodremainder2 = utils.PlaySound("13:00:00", const.WAV_FOODREMAINDER)
     time_1435 = utils.PlaySound("14:35:00", const.WAV_1435, day=[2])
     pickup_ko = utils.PlaySound("14:35:01", const.WAV_PICKUPKO, day=[2])
     # evening
     tutoring_school = utils.PlaySound("18:15:00", const.WAV_TUTORING, day=[1,4])
-    time_1930 = utils.PlaySound("19:30:00", const.WAV_0730)
-    food3 = utils.PlaySound("19:30:01", const.WAV_FOOD)
     # night
     time_2000 = utils.PlaySound("20:00:00", const.WAV_2000)
     homework = utils.PlaySound("20:00:01", const.WAV_HOMEWORK)
@@ -35,20 +29,14 @@ def main():
 
     while (True):
         # morning
-        time_0630.playsound()
-        food1.playsound()
         time_0655.playsound()
         time_wakeup.playsound()
         foodremainder1.playsound()
         # afternoon
-        time_1230.playsound()
-        food2.playsound()
         foodremainder2.playsound()
         time_1435.playsound()
         pickup_ko.playsound()
         # evening
-        time_1930.playsound()
-        food3.playsound()
         tutoring_school.playsound()
         # night
         time_2000.playsound()
