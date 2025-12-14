@@ -8,13 +8,10 @@ def main():
     # morning
     time_0655 = utils.PlaySound("06:55:00", const.WAV_0655_SMALL)
     time_wakeup = utils.PlaySound("06:55:00", const.WAV_WAKEUP_SMALL)
-    foodremainder1 = utils.PlaySound("07:15:00", const.WAV_FOODREMAINDER)
+    foodremainder1 = utils.PlaySound("07:00:00", const.WAV_FOODREMAINDER)
     # afternoon
     foodremainder2 = utils.PlaySound("13:00:00", const.WAV_FOODREMAINDER)
-    time_1435 = utils.PlaySound("14:35:00", const.WAV_1435, day=[2])
-    pickup_ko = utils.PlaySound("14:35:01", const.WAV_PICKUPKO, day=[2])
     # evening
-    tutoring_school = utils.PlaySound("18:15:00", const.WAV_TUTORING, day=[1,4])
     # night
     time_2000 = utils.PlaySound("20:00:00", const.WAV_2000)
     homework = utils.PlaySound("20:00:01", const.WAV_HOMEWORK)
@@ -34,10 +31,7 @@ def main():
         foodremainder1.playsound()
         # afternoon
         foodremainder2.playsound()
-        time_1435.playsound()
-        pickup_ko.playsound()
         # evening
-        tutoring_school.playsound()
         # night
         time_2000.playsound()
         homework.playsound()
